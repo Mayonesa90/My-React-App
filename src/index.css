@@ -39,7 +39,7 @@ body {
   background-image: url('./assets/images/profile.png');
   background-size:cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: stretch;
   background-color: #1a1a1a;
 }
 

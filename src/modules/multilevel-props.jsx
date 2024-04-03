@@ -1,20 +1,25 @@
-
+import { useState } from "react";
+import Candy from "./candy";
 
 export default function MessageFromGrandParent() {
 
+    const [message, setMessage] = useState('Hola mi nieta!');
+    const [showCandy, setCandy] = useState(false)
 
-    let message = "Hej barnbarnet!";
+
+    function changeMessage() {
+        setMessage("Claro que si :D")
+        setCandy(true)
+    }
 
     
     return (
         <div>
             <Parent message={message}/>
-            <button onClick={() => {
-                message="Must give candy to child...",
-                console.log(message)
-                }}>
-                    Give candy
+            <button onClick={changeMessage}>
+                    Tienes dulces?
             </button>
+            { showCandy ? <Candy /> : null }
         </div>
         
     )
