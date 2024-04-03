@@ -13,6 +13,6 @@
 
 export default function Main(){
     return (
-       <main className="bg-transparent h-screen"></main>
+       <main className="flex flex-col bg-transparent z-0 h-full max-w-full"></main>
     )
 }

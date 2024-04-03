@@ -4,7 +4,8 @@ import './index.css'
 
 import Header from './modules/header';
 import Main from './modules/main';
-import Kluring from './modules/kluring';
+import ProfileCard from './modules/dynamic-profile';
+import MessageFromGrandParent from './modules/multilevel-props';
 
 
 
@@ -13,10 +14,13 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className='w-screen min-h-full'>
+    <div className='w-screen min-h-full shrink-0 flex flex-col'>
       <Header />
-      <Main />
-      <Kluring />
+      <Main>
+
+      </Main>
+      <ProfileCard />
+      <MessageFromGrandParent />
     </div>
   )
 }
