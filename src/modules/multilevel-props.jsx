@@ -14,7 +14,7 @@ export default function MessageFromGrandParent() {
 
     
     return (
-        <div className="container border border-solid border-orange-400 content-center">
+        <div className="container border border-solid border-orange-400 content-top">
             <Parent message={message}/>
             <button onClick={changeMessage}>
                     Tienes dulces?

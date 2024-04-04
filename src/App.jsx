@@ -2,6 +2,7 @@
 import './App.css';
 import './index.css'
 import Layout from './modules/Layout';
+import "./assets/fonts/4-Fromages-Regular.woff";
 
 
 function App() {

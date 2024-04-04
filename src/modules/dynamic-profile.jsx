@@ -22,7 +22,7 @@ export default function ProfileCard(namn, titel) {
         <div className=' container content-center'>
             <section className='border border-solid border-orange-400 flex flex-wrap gap-5 mx-2 backdrop-blur-md  py-5 px-2 rounded-2xl'>
                 <img className='h-24 rounded-full' src={IMAGES.profilepic} alt="" />
-                <p className=" prose text-l  font-extrabold text-green-500 text-left text-wrap">{user.title}. {user.name}</p>
+                <p className=" prose font-fromage text-l  font-extrabold text-green-500 text-left text-wrap">{user.title}. {user.name}</p>
                 <button onClick={changeName} className=' flex-shrink-0 '>Change name and title</button>
             </section>
         </div>

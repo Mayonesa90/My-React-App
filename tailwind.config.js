@@ -19,8 +19,8 @@ module.exports = {
         '.falling-down': {
           transform: 'translateY(-500px)',
         },
-        '.green-bg': {
-          background: 'skewY(-15deg)',
+        '.font-fromage': {
+          'font-family': 'Fromages',
         },
       }
 

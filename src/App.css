@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Fromages";
+  src: local("4-Fromages-Regular"), url("./assets/fonts/4-Fromages-Regular");
+}
+
 #root {
   max-width: 1280px;
   margin: 0;
