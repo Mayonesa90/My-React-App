@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Candy from "./candy";
+import Candy from "./Candy";
 
 export default function MessageFromGrandParent() {
 
@@ -14,7 +14,7 @@ export default function MessageFromGrandParent() {
 
     
     return (
-        <div>
+        <div className="container border border-solid border-orange-400 content-center">
             <Parent message={message}/>
             <button onClick={changeMessage}>
                     Tienes dulces?

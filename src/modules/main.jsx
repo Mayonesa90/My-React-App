@@ -1,18 +1,13 @@
-// import styled from "styled-components";
-
-// const MainSkeleton = ({className}) => (
-//     <div className={className}>
-//         I'm Mainly here because of you
-//     </div>    
-// )
-
-// const StyledMain = styled(MainSkeleton)`
-//     background-color: #4b6c75;
-//     min-height: 80vh;
-// `;
+import ProfileCard from "./dynamic-profile";
+import MessageFromGrandParent from "./multilevel-props";
+import Counter from "./Counter";
 
 export default function Main(){
     return (
-       <main className="flex flex-col bg-transparent z-0 h-full max-w-full"></main>
+       <main className=" grid grid-cols-2 content-top mx-32 my-10 min-h-96 gap-10">
+        < ProfileCard />
+        < MessageFromGrandParent />
+        <Counter />
+       </main>
     )
 }

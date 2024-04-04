@@ -1,27 +1,14 @@
 // import { useState } from 'react'
 import './App.css';
 import './index.css'
-
-import Header from './modules/header';
-import Main from './modules/main';
-import ProfileCard from './modules/dynamic-profile';
-import MessageFromGrandParent from './modules/multilevel-props';
-
-
+import Layout from './modules/Layout';
 
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <div className='w-screen min-h-full shrink-0 flex flex-col'>
-      <Header />
-      <Main>
-
-      </Main>
-      <ProfileCard />
-      <MessageFromGrandParent />
-    </div>
+    <><Layout /></>
   )
 }
 
