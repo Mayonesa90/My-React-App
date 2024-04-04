@@ -8,7 +8,7 @@ export default function Header() {
     });
 
     const [btn, setBtn] = useState({
-        src: `${IMAGES['btn-on']}`,
+        src: `${IMAGES['btn-off']}`,
         on: true
     })
 
@@ -18,7 +18,7 @@ export default function Header() {
                 color: 'from-purple-300'
             })
             setBtn({
-                src: `${IMAGES['btn-off']}`,
+                src: `${IMAGES['btn-on']}`,
                 on: false
             })
         } else {
@@ -26,7 +26,7 @@ export default function Header() {
                 color: 'from-green-300'
             })
             setBtn({
-                src: `${IMAGES['btn-on']}`,
+                src: `${IMAGES['btn-off']}`,
                 on: true
             })
         }
